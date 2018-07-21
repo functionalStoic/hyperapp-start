@@ -1,0 +1,18 @@
+{
+  "name": "hyperapp-start",
+  "version": "1.0.0",
+  "description": "Intro to Hyperapp https://www.codementor.io/chriswahlfeldt/getting-started-with-hyperapp-lk2u2fb85",
+  "main": "index.js",
+  "author": "Jason Sooter",
+  "license": "MIT",
+  "dependencies": {
+    "hyperapp": "^1.2.8"
+  },
+  "devDependencies": {
+    "parcel": "^1.9.7"
+  },
+  "scripts": {
+    "build": "parcel build ./src/index.html --out-dir ./dist",
+    "start": "parcel ./src/index.html --out-dir ./dist"
+  }
+}
